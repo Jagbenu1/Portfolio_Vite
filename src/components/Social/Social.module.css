@@ -1,0 +1,18 @@
+.Social{
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.Social i{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #9a9b9c;
+}
+
+.Social i:hover{
+    color: black;
+}
+

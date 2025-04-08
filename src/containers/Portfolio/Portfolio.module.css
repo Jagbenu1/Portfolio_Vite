@@ -1,0 +1,25 @@
+.Container{
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.Title {
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+
+.Row{
+    flex: 1;
+    justify-content: center;
+    margin: 100px 20px 0px 20px;
+}
+
+.Row:after{
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+}

@@ -1,0 +1,78 @@
+.Column{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 30%;
+    padding:  10px 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: solid red 1px; */
+}
+
+
+.Card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    border: solid black 2px;
+    margin:  0 auto; 
+    box-sizing: border-box;
+    height: 30%;
+}
+
+.Card p {
+    overflow:hidden;
+}
+
+.Btn{
+    padding: 10px 23px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+}
+
+.Btn:hover{
+    background-color: #4caf50;
+    color: white;
+}
+
+.Btn:visited {
+    text-decoration: none;
+    border: inherit;
+}
+
+
+@media screen and (min-width: 200px){
+    .Column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        /* box-sizing: border-box; */
+    }
+}
+
+
+@media screen and (min-width: 600px){
+    .Column{
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+        /* box-sizing: border-box; */
+    }
+}
+
+@media screen and (min-width: 850px){
+    .Column{
+        width: 25%;
+        display: block;
+        margin-bottom: 20px;
+        /* box-sizing: border-box; */
+    }
+}

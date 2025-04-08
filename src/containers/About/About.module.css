@@ -1,0 +1,82 @@
+.About{
+    padding: 20px;
+    text-align: center;
+}
+
+.Headline{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Title {
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.Grid_item{
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.Grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    align-items: center;
+}
+
+.Octo, .Octo div{
+    margin:0 auto;
+    transform-origin: 50% 50%;
+    overflow:hidden;
+    width: 300px;
+    height: 300px;
+}
+
+
+.Octo{
+    transform: rotate(45deg);
+}
+
+.Octo1{
+    transform: rotate(-45deg);
+}
+
+.Octo1 img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: "center";
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+    .Grid_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2px;
+    }
+
+    .Octo, .Octo div{
+        margin:0 auto;
+        transform-origin: 50% 50%;
+        overflow:hidden;
+        width: 200px;
+        height: 200px;
+    }
+
+    .Octo1 img {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        text-align: "center";
+        display: block;
+    }
+}
+

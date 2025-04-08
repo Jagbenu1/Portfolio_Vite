@@ -1,0 +1,29 @@
+.Card{
+    flex: 1;
+    /* border: black solid 1px; */
+    text-align: center;
+    margin: 2px;
+    /* border-radius: 12px; */
+}
+
+.Card img{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Card p{
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px){
+    .Card img{
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+

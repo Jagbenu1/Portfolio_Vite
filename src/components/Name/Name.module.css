@@ -1,0 +1,15 @@
+.Name{
+    background-color: transparent;
+    padding: 3px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.Name h4{
+    margin: 0;
+    padding: 0;
+}

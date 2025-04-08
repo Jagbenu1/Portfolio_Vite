@@ -1,0 +1,22 @@
+.Container{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.Container a{
+    background-color: white ;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: black solid 3px;
+}
+
+.Container a:hover{
+    color: black;
+    background-color: #35ce8d;
+}
+
+.Container a:visited{
+    color: black;
+}
